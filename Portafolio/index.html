@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="">Stiven</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SELECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="conedor-img">
+                <img src="img/primera-1.png" alt="">
+            </div>
+            <h1>STIVEN BUSTOS</h1>
+            <h2>Ingeniero Informatico - Junior Developer</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/millerstiven.bustosdaza"target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/miller-stiven-bustos-204953248"target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/stiven-98"><i class="fa-brands fa-git"target="_blank"></i></a>
+                <a href="https://wa.me/573118160185"target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Miller Stiven Bustos.</span>Ingeniero informático ubicado en Colombia, con habilidades en Diseño Gráfico, Web y desarrollo de software mediante lenguajes de programación como Python y C++. Persona responsable, adaptable y honesta con buena relación para trabajo en equipo.</p>
+          
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            29 de Octubre
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 3118160185
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            millerstiven-99@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Villavicencio - Meta, Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Junior Developer</span> 
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="Contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-pen"></i>
+                            <span>DIBUJO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOGRAFIA</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--<button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>-->
+            <div class="rede">
+                <a href="https://drive.google.com/file/d/1J7HaOllC-Tlge0W3WptLGvkeGg68pyGt/view?usp=sharing" target="_blank"> Descargar CV <i class="fa-solid fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Tecnical skills -->
+                <div class="col">
+                    <div class="contenedor-skills">
+                        <div class="skill">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-square-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-python"></i>
+                            <span>PYTHON</span>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-solid fa-image"></i>
+                            <span>PHOTOSHOP</span>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-solid fa-bezier-curve"></i>
+                            <span>ILLUSTRATOR</span>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-wordpress"></i>
+                            <span>WORDPRESS</span>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-solid fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenedor-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Displomado en Docencia y Didactiva Universitaria</h4>
+                        <span class="casa">Politecnico Superior de Colombia</span>
+                        <span class="fecha">| 01/2023 - 02/2023</span>
+                        <p>Mediante estudio virtual realizado en el politécnico superior de Colombia y el cumplimiento de trabajos y evaluaciones, cursé y aprobé satisfactoriamente el diplomado en Docencia y Didáctica Universitaria. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingeniería Informática</h4>
+                        <span class="casa">Corporación Universitaria Autónoma de Nariño (AUNAR)</span>
+                        <span class="fecha">| 2018 - 2023</span>
+                        <p>Durante mi tiempo en la universidad, he adquirido un sólido conjunto de habilidades técnicas que incluye programación, desarrollo de software, diseño de algoritmos, gestión de bases de datos. He participado en proyectos de investigación y eventos como lo es RedCOLSI</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller Técnico</h4>
+                        <span class="casa">Institución Educativa Capitán Miguel Lara</span>
+                        <span class="fecha">| 2009 - 2015</span>
+                        <p>Realice y finalice mis estudios básicos en la Institución Educativa Capitán Miguel Lara, en la cual también se nos brindo los conocimientos y posteriormente el titulo como técnico en sistemas así finalizando y adquiriendo el titulo final por parte de la institución como bachiller técnico en puerto lopez - Meta.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Editor Web y Diseño Grafico</h4>
+                        <span class="casa">Corporación Universitaria Autónoma de Nariño</span>
+                        <span class="fecha">| 08/2022 - 12/2022</span>
+                        <p>Programación de módulos de la pagina institucional mediante WordPress y actualización de 
+                            información de la plataforma oficial universitaria. Diseño de artes graficas 
+                            mediante Photoshop e Illustrator para publicidad y uso interno.  </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Auxiliar de Sistemas y Asesor de Ventas</h4>
+                        <span class="casa">YR Tecnologia</span>
+                        <span class="fecha">| 02/2020 - 03/2021</span>
+                        <p>Encargado de la atención al cliente y realizar los registros de equipos a 
+                            revisar en el sistema para su respectivo análisis y reparación en caso de ser necesario.   </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Administrador</h4>
+                        <span class="casa">JUANITA WEB CAFE INTERNET</span>
+                        <span class="fecha">| 07/2019 - 02/2020</span>
+                        <p>Atención al cliente y encargado revisar los equipos de cómputo y realizar 
+                            mantenimiento a los mismos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Auxiliar de Archivo</h4>
+                        <span class="casa">Tanques y Transportes del Casanare LTDA.</span>
+                        <span class="fecha">| 08/2016 - 02/2017</span>
+                        <p>archivar y organizar la información de los vehículos que llegaban con el 
+                            combustible para hacer seguimiento de los envíos con herramientas office.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenedor-seccion">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Arte_Egresados-01.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Arte grafico al publico</p>
+                        <p>Arte realizado para la universidad “AUNAR”, referente a "Egresados".</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Dia del docente.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Arte grafico al publico</p>
+                        <p>Arte realizado para la universidad “AUNAR”, referente al "Dia del docente".</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Dia_del_Diseñado_grafico.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Arte grafico al publico</p>
+                        <p>Arte realizado para la universidad “AUNAR”, referente al "Dia del diseñador grafico".</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/DULCES SONRISAS.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Arte grafico al publico</p>
+                        <p>Arte realizado para la universidad “AUNAR”, referente a "Halloween".</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Enfermeria_Bienestar.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Arte grafico al publico</p>
+                        <p>Arte realizado para la universidad “AUNAR”, referente a "Bienestar".</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Navidad Aunar.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Arte grafico interno</p>
+                        <p>Arte realizado para la universidad “AUNAR”, referente a "Navidad".</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Numero telefonico">
+                    <input type="text" placeholder="Direccion de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d33133.42411713556!2d-73.63081655097969!3d4.139904200520753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1695245391371!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Colombia, Villavicencio - Meta
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llama: +57 3118160185
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: millerstiven-99@hotmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/millerstiven.bustosdaza"target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/miller-stiven-bustos-204953248"target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/stiven-98"><i class="fa-brands fa-git"target="_blank"></i></a>
+            <a href="https://wa.me/573118160185"><i class="fa-brands fa-whatsapp"target="_blank"></i></a>
+        </div>
+        <p>© stivenbustos 2023</p>
+    </footer>
+
+    <script src="scrip.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
